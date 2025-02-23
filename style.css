@@ -25,6 +25,16 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    color: #3CB371;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 4px 2px 8px #4B0082;
+}
+
 #cronometro {
     color: #fff;
     font-size: 35px;
@@ -54,4 +64,14 @@ button {
     background-color: #4B0082;
     color: 	#3CB371;
     font-weight: 600;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.5;
+    cursor: grab;
 }
